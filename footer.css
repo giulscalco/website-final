@@ -1,0 +1,19 @@
+#footer{
+    height: 200px;
+    width: 1500px;
+    background-color: bisque;
+    img{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+    }
+    p{
+        font-size: 20px;
+        font-family: Arial, Helvetica, serif;
+        color: black; 
+        text-align: center;
+    }
+    #social{
+        padding-left: 650px;
+    }
+}

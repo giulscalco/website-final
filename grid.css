@@ -1,0 +1,136 @@
+
+#flexbox{
+    height: 500px;
+    width: 1500px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    .title{
+        font-size: 30px;
+        font-family: Arial, Helvetica, serif;
+        font-weight: bold;
+        color: bisque;
+        text-align: center;
+        height: 100px;
+        width: 500px;
+        margin-top: 40px;
+    }
+    .card-container{
+        height: 400px;
+        width: 500px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        .item1{
+            background-color: bisque;
+            height: 350px;
+            width: 250px;
+            img{
+                padding-top: 40px;
+                padding-left: 75px;
+                padding-right: 75px;
+                height: 130px;
+                width: 100px;
+                align-items: center;
+            }
+            h3{
+                font-size: 30px;
+                font-family: Arial, Helvetica, serif;
+                font-weight: bold;
+                color: black;
+                text-align: center;
+                padding-top: 20px;
+            }
+            p{
+                font-size: 20px;
+                font-family: Arial, Helvetica, serif;
+                color: black;  
+                text-align: center;
+            }
+        }
+        .item2{
+            background-color: bisque;
+            height: 350px;
+            width: 250px;
+            img{
+                padding-top: 60px;
+                height: 110px;
+                width: 150px;
+                padding-left: 50px;
+                padding-right: 50px;
+                align-items: center;
+            }
+            h3{
+                font-size: 30px;
+                font-family: Arial, Helvetica, serif;
+                font-weight: bold;
+                color: black;
+                text-align: center;
+                padding-top: 35px;
+            }
+            p{
+                font-size: 20px;
+                font-family: Arial, Helvetica, serif;
+                color: black;  
+                text-align: center;
+            }
+        }
+        .item3{
+            background-color: bisque;
+            height: 350px;
+            width: 250px;
+            img{
+                padding-top: 40px;
+                padding-left: 60px;
+                padding-right: 60px;
+                height: 150px;
+                width: 130px;
+                align-items: center;
+            }
+            h3{
+                font-size: 30px;
+                font-family: Arial, Helvetica, serif;
+                font-weight: bold;
+                color: black;
+                text-align: center;
+                padding-top: 10px;
+            }
+            p{
+                font-size: 20px;
+                font-family: Arial, Helvetica, serif;
+                color: black;  
+                text-align: center;
+            }
+        }
+        .item4{
+            background-color: bisque;
+            height: 350px;
+            width: 250px;
+            img{
+                padding-top: 40px;
+                height: 130px;
+                width: 160px;
+                padding-left: 45px;
+                padding-right: 45px;
+                align-items: center;
+            }
+            h3{
+                font-size: 30px;
+                font-family: Arial, Helvetica, serif;
+                font-weight: bold;
+                color: black;
+                text-align: center;
+                padding-top: 20px;
+            }
+            p{
+                font-size: 20px;
+                font-family: Arial, Helvetica, serif;
+                color: black;  
+                text-align: center;
+            }
+        }
+    }
+    }
+   
